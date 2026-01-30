@@ -57,8 +57,16 @@ create a repository
 
 git clone <github rep url>
 cd git-lab-demo
+git init
 git remote add origin <github repos url>
 git pull origin master
+git add .
+git commit -m "Add main.py file"
+git push origin master
+
+git fetch origin
+git merge origin main
+git pull
 
 
 

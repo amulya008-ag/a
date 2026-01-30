@@ -130,4 +130,6 @@ and console output
 
 
 8th exp 
+ javac BankService.java
+ java BankService
 
